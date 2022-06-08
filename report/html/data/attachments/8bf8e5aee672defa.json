@@ -1,0 +1,46 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": {
+            "role_id": 0,
+            "role_name": "",
+            "delivery_target": [
+                {
+                    "camp_id": 100693,
+                    "camp_name": "声音变现一转（低价）",
+                    "camp_time": "98期(2022-06-06~2022-06-12)",
+                    "term_id": 107545,
+                    "datasource": [],
+                    "delivery_index": {
+                        "target_guest": {
+                            "current": 0,
+                            "prev": 0,
+                            "mom": 0
+                        },
+                        "guest_progress": {
+                            "current": 0,
+                            "prev": 0,
+                            "mom": 0
+                        },
+                        "get_guest_num": {
+                            "current": 0,
+                            "prev": 0,
+                            "mom": 0
+                        },
+                        "low_class_num": {
+                            "current": 0,
+                            "prev": 0,
+                            "mom": 0
+                        },
+                        "today_guest_degree_of_completion": {
+                            "current": 0,
+                            "prev": 0,
+                            "mom": 0
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

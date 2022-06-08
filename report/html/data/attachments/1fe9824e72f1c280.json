@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": 85,
+                "x_id": 0,
+                "y_value": 61.0,
+                "line_name": "daszx按时发放时"
+            }
+        ]
+    }
+}

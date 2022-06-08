@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": 85,
+                "x_id": 0,
+                "y_value": 29.0,
+                "line_name": "0秒-声优大本营"
+            }
+        ]
+    }
+}

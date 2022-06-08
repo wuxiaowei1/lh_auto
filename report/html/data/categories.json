@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 第1个断言失败 -|- 实际结果:1946259.28 || 预期结果: 3209085.84",
+      "children" : [ {
+        "name" : "代理商数据",
+        "uid" : "2c9f3feff4fc99e7",
+        "parentUid" : "8b8efbfc38e2e0d1235c1b765c653efb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679621809,
+          "stop" : 1654679622374,
+          "duration" : 565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c3', '代理商数据', '', '/advertising/data/agent', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      } ],
+      "uid" : "8b8efbfc38e2e0d1235c1b765c653efb"
+    }, {
+      "name" : "AssertionError: 第1个断言失败 -|- 实际结果:1220765.71 || 预期结果: 3209085.84",
+      "children" : [ {
+        "name" : "投手数据",
+        "uid" : "b2a198df9f276be8",
+        "parentUid" : "38c2248eeda7dccb354551e0b95f2d5b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679622527,
+          "stop" : 1654679624330,
+          "duration" : 1803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c4', '投手数据', '', '/advertising/data/pitcher', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      } ],
+      "uid" : "38c2248eeda7dccb354551e0b95f2d5b"
+    }, {
+      "name" : "AssertionError: 第1个断言失败 -|- 实际结果:3057159.68 || 预期结果: 3209085.84",
+      "children" : [ {
+        "name" : "商品数据",
+        "uid" : "53a5d82af00a56a0",
+        "parentUid" : "2e816d74fdd7d9efc62d3ca6496db625",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679628597,
+          "stop" : 1654679630051,
+          "duration" : 1454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c7', '商品数据', '', '/advertising/data/product', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "落地页数据",
+        "uid" : "a3d8d36383a4c261",
+        "parentUid" : "2e816d74fdd7d9efc62d3ca6496db625",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679631624,
+          "stop" : 1654679633245,
+          "duration" : 1621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c9', '落地页数据', '', '/advertising/data/put_page', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      } ],
+      "uid" : "2e816d74fdd7d9efc62d3ca6496db625"
+    }, {
+      "name" : "AssertionError: 第1个断言失败 -|- 实际结果:1147926.0 || 预期结果: 3209085.84",
+      "children" : [ {
+        "name" : "MP数据",
+        "uid" : "d5cad4bcdde49a0a",
+        "parentUid" : "0f7510decd96b607dbfafbfb3b5ec9d3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679633255,
+          "stop" : 1654679633446,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c10', 'MP数据', '', '/advertising/data/mp', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      } ],
+      "uid" : "0f7510decd96b607dbfafbfb3b5ec9d3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

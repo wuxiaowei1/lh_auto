@@ -1,0 +1,50 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": "2022-03-07",
+                "x_id": 0,
+                "y_value": 90.0,
+                "line_name": "吴小伟"
+            },
+            {
+                "x_name": "2022-03-08",
+                "x_id": 1,
+                "y_value": 69.0,
+                "line_name": "吴小伟"
+            },
+            {
+                "x_name": "2022-03-09",
+                "x_id": 2,
+                "y_value": 45.0,
+                "line_name": "吴小伟"
+            },
+            {
+                "x_name": "2022-03-10",
+                "x_id": 3,
+                "y_value": 141.0,
+                "line_name": "吴小伟"
+            },
+            {
+                "x_name": "2022-03-11",
+                "x_id": 4,
+                "y_value": 70.0,
+                "line_name": "吴小伟"
+            },
+            {
+                "x_name": "2022-03-12",
+                "x_id": 5,
+                "y_value": 83.0,
+                "line_name": "吴小伟"
+            },
+            {
+                "x_name": "2022-03-13",
+                "x_id": 6,
+                "y_value": 126.0,
+                "line_name": "吴小伟"
+            }
+        ]
+    }
+}

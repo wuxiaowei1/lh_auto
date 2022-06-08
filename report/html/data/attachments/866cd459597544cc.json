@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": 84,
+                "x_id": 0,
+                "line_name": "3.9元",
+                "y_value": 1279794.62
+            }
+        ]
+    }
+}

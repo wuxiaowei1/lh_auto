@@ -1,0 +1,216 @@
+{
+  "uid" : "5f5d06f0cdab1737",
+  "name" : "首页-等级",
+  "fullName" : "test.test_api#test_main",
+  "historyId" : "c9d01f97c4da65db9c4148f96c38a412",
+  "time" : {
+    "start" : 1654679715942,
+    "stop" : 1654679716292,
+    "duration" : 350
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1654679715942,
+      "stop" : 1654679715942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址: https://lh-launch-platform.dev1.weike.fm/advertising/index/ad_level",
+      "time" : {
+        "start" : 1654679715943,
+        "stop" : 1654679715943,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1654679715943,
+        "stop" : 1654679715943,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b4648dac75c10d5",
+        "name" : "请求头",
+        "source" : "3b4648dac75c10d5.json",
+        "type" : "application/json",
+        "size" : 204
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "请求数据",
+      "time" : {
+        "start" : 1654679715943,
+        "stop" : 1654679715944,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40fd143088f620c6",
+        "name" : "请求数据",
+        "source" : "40fd143088f620c6.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "响应耗时(s): 0.344011",
+      "time" : {
+        "start" : 1654679716289,
+        "stop" : 1654679716289,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "响应结果",
+      "time" : {
+        "start" : 1654679716289,
+        "stop" : 1654679716290,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed536b96392b671e",
+        "name" : "响应结果",
+        "source" : "ed536b96392b671e.json",
+        "type" : "application/json",
+        "size" : 82
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "当前可用参数池",
+      "time" : {
+        "start" : 1654679716290,
+        "stop" : 1654679716290,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6240ec432a80d478",
+        "name" : "当前可用参数池",
+        "source" : "6240ec432a80d478.json",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1654679716291,
+        "stop" : 1654679716292,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c42f1d0234dd4ac3",
+        "name" : "第1个断言",
+        "source" : "c42f1d0234dd4ac3.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GFT8T1F"
+  }, {
+    "name" : "thread",
+    "value" : "13948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['c94', '首页-等级', '', '/advertising/index/ad_level', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693}', '', '', '{\"$.code\":0}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f5d06f0cdab1737.json",
+  "parameterValues" : [ "['c94', '首页-等级', '', '/advertising/index/ad_level', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693}', '', '', '{\"$.code\":0}']" ]
+}

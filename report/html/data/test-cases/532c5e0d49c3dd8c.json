@@ -1,0 +1,216 @@
+{
+  "uid" : "532c5e0d49c3dd8c",
+  "name" : "投手数据-广告账号细分-时间对比",
+  "fullName" : "test.test_api#test_main",
+  "historyId" : "a41b9bbc5076f0f68bf699b5ce2a8b87",
+  "time" : {
+    "start" : 1654679691894,
+    "stop" : 1654679692997,
+    "duration" : 1103
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1654679691894,
+      "stop" : 1654679691894,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址: https://lh-launch-platform.dev1.weike.fm/advertising/data/pitcher_trend_time",
+      "time" : {
+        "start" : 1654679691895,
+        "stop" : 1654679691895,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1654679691895,
+        "stop" : 1654679691895,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "303636d116822d4f",
+        "name" : "请求头",
+        "source" : "303636d116822d4f.json",
+        "type" : "application/json",
+        "size" : 204
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "请求数据",
+      "time" : {
+        "start" : 1654679691896,
+        "stop" : 1654679691896,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40238eb01c807a87",
+        "name" : "请求数据",
+        "source" : "40238eb01c807a87.json",
+        "type" : "application/json",
+        "size" : 583
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "响应耗时(s): 1.097402",
+      "time" : {
+        "start" : 1654679692995,
+        "stop" : 1654679692995,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "响应结果",
+      "time" : {
+        "start" : 1654679692995,
+        "stop" : 1654679692995,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce5e07eed471708b",
+        "name" : "响应结果",
+        "source" : "ce5e07eed471708b.json",
+        "type" : "application/json",
+        "size" : 1686
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "当前可用参数池",
+      "time" : {
+        "start" : 1654679692996,
+        "stop" : 1654679692996,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e2c1f8dce2f11eb",
+        "name" : "当前可用参数池",
+        "source" : "5e2c1f8dce2f11eb.json",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1654679692997,
+        "stop" : 1654679692997,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ebfd2e9998df8e97",
+        "name" : "第1个断言",
+        "source" : "ebfd2e9998df8e97.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GFT8T1F"
+  }, {
+    "name" : "thread",
+    "value" : "13948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['c71', '投手数据-广告账号细分-时间对比', '', '/advertising/data/pitcher_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "532c5e0d49c3dd8c.json",
+  "parameterValues" : [ "['c71', '投手数据-广告账号细分-时间对比', '', '/advertising/data/pitcher_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+}

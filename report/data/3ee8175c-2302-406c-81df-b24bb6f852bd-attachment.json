@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": 85,
+                "x_id": 0,
+                "line_name": "新原片",
+                "y_value": 1.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,216 @@
+{
+  "uid" : "6412f972f1941388",
+  "name" : "投手数据趋势对比-日粒度",
+  "fullName" : "test.test_api#test_main",
+  "historyId" : "fc9acbf2b7eaa9638dd183228c9aaf75",
+  "time" : {
+    "start" : 1654679643771,
+    "stop" : 1654679644241,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1654679643770,
+      "stop" : 1654679643770,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址: https://lh-launch-platform.dev1.weike.fm/advertising/data/pitcher_trend",
+      "time" : {
+        "start" : 1654679643771,
+        "stop" : 1654679643771,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1654679643772,
+        "stop" : 1654679643772,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88ef85599d413c10",
+        "name" : "请求头",
+        "source" : "88ef85599d413c10.json",
+        "type" : "application/json",
+        "size" : 204
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "请求数据",
+      "time" : {
+        "start" : 1654679643772,
+        "stop" : 1654679643773,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19e2f897311a1e74",
+        "name" : "请求数据",
+        "source" : "19e2f897311a1e74.json",
+        "type" : "application/json",
+        "size" : 368
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "响应耗时(s): 0.464246",
+      "time" : {
+        "start" : 1654679644238,
+        "stop" : 1654679644238,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "响应结果",
+      "time" : {
+        "start" : 1654679644238,
+        "stop" : 1654679644239,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a95e2d175a62527",
+        "name" : "响应结果",
+        "source" : "3a95e2d175a62527.json",
+        "type" : "application/json",
+        "size" : 1282
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "当前可用参数池",
+      "time" : {
+        "start" : 1654679644239,
+        "stop" : 1654679644239,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "738b87344d33d198",
+        "name" : "当前可用参数池",
+        "source" : "738b87344d33d198.json",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1654679644240,
+        "stop" : 1654679644241,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73bae7ce7303ea91",
+        "name" : "第1个断言",
+        "source" : "73bae7ce7303ea91.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GFT8T1F"
+  }, {
+    "name" : "thread",
+    "value" : "13948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['c21', '投手数据趋势对比-日粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2}', '', '', '{\"$.code\":0}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6412f972f1941388.json",
+  "parameterValues" : [ "['c21', '投手数据趋势对比-日粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2}', '', '', '{\"$.code\":0}']" ]
+}

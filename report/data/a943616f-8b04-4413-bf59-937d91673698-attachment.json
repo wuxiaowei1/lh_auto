@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": 84,
+                "x_id": 0,
+                "y_value": 1147926.0,
+                "line_name": "微信广告"
+            }
+        ]
+    }
+}

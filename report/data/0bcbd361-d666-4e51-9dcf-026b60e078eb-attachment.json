@@ -1,0 +1,38 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": "2022-03-02",
+                "x_id": 0,
+                "y_value": 484.0,
+                "line_name": "新榜"
+            },
+            {
+                "x_name": "2022-03-03",
+                "x_id": 1,
+                "y_value": 398.0,
+                "line_name": "新榜"
+            },
+            {
+                "x_name": "2022-03-04",
+                "x_id": 2,
+                "y_value": 470.0,
+                "line_name": "新榜"
+            },
+            {
+                "x_name": "2022-03-05",
+                "x_id": 3,
+                "y_value": 526.0,
+                "line_name": "新榜"
+            },
+            {
+                "x_name": "2022-03-06",
+                "x_id": 4,
+                "y_value": 467.0,
+                "line_name": "新榜"
+            }
+        ]
+    }
+}

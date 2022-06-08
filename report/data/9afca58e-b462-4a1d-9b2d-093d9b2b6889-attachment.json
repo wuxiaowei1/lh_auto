@@ -1,0 +1,48 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": {
+            "rate_list": [
+                {
+                    "x_id": "85",
+                    "x_name": "85",
+                    "line_name": "第三天高沉浸转化率",
+                    "rate_value": 0.0
+                },
+                {
+                    "x_id": "86",
+                    "x_name": "86",
+                    "line_name": "第三天高沉浸转化率",
+                    "rate_value": 0.0
+                },
+                {
+                    "x_id": "88",
+                    "x_name": "88",
+                    "line_name": "第三天高沉浸转化率",
+                    "rate_value": 0.0
+                }
+            ],
+            "num_list": [
+                {
+                    "x_id": "85",
+                    "x_name": "85",
+                    "line_name": "ROI",
+                    "num_value": 0.01
+                },
+                {
+                    "x_id": "86",
+                    "x_name": "86",
+                    "line_name": "ROI",
+                    "num_value": 0.01
+                },
+                {
+                    "x_id": "88",
+                    "x_name": "88",
+                    "line_name": "ROI",
+                    "num_value": 10.24
+                }
+            ]
+        }
+    }
+}

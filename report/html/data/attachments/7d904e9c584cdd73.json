@@ -1,0 +1,18 @@
+{
+    "camp_id": 100693,
+    "material_type": 0,
+    "term_start": "105297,105456,105467,105814",
+    "term_finish": "104817,104972,104983,105112",
+    "tid": 17,
+    "grain_type": 2,
+    "detail_type": 0,
+    "column_name": "total_cost",
+    "categorys": [
+        {
+            "id": 1,
+            "name": "3.9元",
+            "sub": []
+        }
+    ],
+    "project_id": 1
+}

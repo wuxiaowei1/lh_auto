@@ -1,0 +1,64 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_id": "1",
+                "line_name": "开始对比期",
+                "line_id": 1,
+                "x_name": "1",
+                "y_value": 538.0
+            },
+            {
+                "x_id": "2",
+                "line_name": "开始对比期",
+                "line_id": 1,
+                "x_name": "2",
+                "y_value": 1098.0
+            },
+            {
+                "x_id": "3",
+                "line_name": "开始对比期",
+                "line_id": 1,
+                "x_name": "3",
+                "y_value": 0.0
+            },
+            {
+                "x_id": "4",
+                "line_name": "开始对比期",
+                "line_id": 1,
+                "x_name": "4",
+                "y_value": 775.0
+            },
+            {
+                "x_id": "1",
+                "line_name": "结束对比期",
+                "line_id": 2,
+                "x_name": "1",
+                "y_value": 0.0
+            },
+            {
+                "x_id": "2",
+                "line_name": "结束对比期",
+                "line_id": 2,
+                "x_name": "2",
+                "y_value": 205.0
+            },
+            {
+                "x_id": "3",
+                "line_name": "结束对比期",
+                "line_id": 2,
+                "x_name": "3",
+                "y_value": 345.0
+            },
+            {
+                "x_id": "4",
+                "line_name": "结束对比期",
+                "line_id": 2,
+                "x_name": "4",
+                "y_value": 677.0
+            }
+        ]
+    }
+}

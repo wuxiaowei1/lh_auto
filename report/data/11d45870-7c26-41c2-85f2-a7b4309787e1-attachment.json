@@ -1,0 +1,18 @@
+{
+    "tid": 17,
+    "grain_type": 2,
+    "begin_time": 105308,
+    "end_time": 105308,
+    "detail_type": 1,
+    "column_name": "low_class_num",
+    "categorys": [
+        {
+            "id": 7,
+            "name": "张弛综合",
+            "sub": []
+        }
+    ],
+    "project_id": 1,
+    "camp_id": 100693,
+    "material_type": 0
+}

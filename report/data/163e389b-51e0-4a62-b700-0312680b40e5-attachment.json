@@ -1,0 +1,24 @@
+{
+    "tid": 17,
+    "grain_type": 2,
+    "begin_time": 105308,
+    "end_time": 105308,
+    "detail_type": 1,
+    "column_name": "low_class_num",
+    "categorys": [
+        {
+            "id": "10696682",
+            "name": "梨花自运营-晴17-声音1户",
+            "sub": [
+                {
+                    "id": 65,
+                    "name": "新原片"
+                }
+            ]
+        }
+    ],
+    "project_id": 1,
+    "camp_id": 100693,
+    "material_type": 0,
+    "trend_type": "ad_account_id"
+}

@@ -1,0 +1,50 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": "2022-03-07",
+                "x_id": 0,
+                "line_name": "3.9元",
+                "y_value": 15.0
+            },
+            {
+                "x_name": "2022-03-08",
+                "x_id": 1,
+                "line_name": "3.9元",
+                "y_value": 10.0
+            },
+            {
+                "x_name": "2022-03-09",
+                "x_id": 2,
+                "line_name": "3.9元",
+                "y_value": 7.0
+            },
+            {
+                "x_name": "2022-03-10",
+                "x_id": 3,
+                "line_name": "3.9元",
+                "y_value": 8.0
+            },
+            {
+                "x_name": "2022-03-11",
+                "x_id": 4,
+                "line_name": "3.9元",
+                "y_value": 0.0
+            },
+            {
+                "x_name": "2022-03-12",
+                "x_id": 5,
+                "line_name": "3.9元",
+                "y_value": 0.0
+            },
+            {
+                "x_name": "2022-03-13",
+                "x_id": 6,
+                "line_name": "3.9元",
+                "y_value": 4.0
+            }
+        ]
+    }
+}

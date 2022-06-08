@@ -1,0 +1,25 @@
+{
+    "tid": 17,
+    "grain_type": 2,
+    "begin_time": 105308,
+    "end_time": 105308,
+    "detail_type": 1,
+    "column_name": "low_class_num",
+    "categorys": [
+        {
+            "id": 7,
+            "name": "微盟",
+            "sub": [
+                {
+                    "id": 42,
+                    "name": "王建行"
+                }
+            ]
+        }
+    ],
+    "project_id": 1,
+    "camp_id": 100693,
+    "material_type": 0,
+    "aisle_id": 2,
+    "trend_type": "ad_account_id"
+}

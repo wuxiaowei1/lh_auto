@@ -1,0 +1,1781 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test_api",
+      "children" : [ {
+        "name" : "价格包数据",
+        "uid" : "b25fae96a41aa55c",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679619813,
+          "stop" : 1654679620280,
+          "duration" : 467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c1', '价格包数据', '', '/advertising/data/price', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":10,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '{\"total_cost\":\"$.data.content[0].total_cost\"}', '', '{\"$.data.content[0].total_cost\":3209085.84}']" ]
+      }, {
+        "name" : "渠道数据",
+        "uid" : "20f2e7114a0a5d24",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679620284,
+          "stop" : 1654679621806,
+          "duration" : 1522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c2', '渠道数据', '', '/advertising/data/aisle', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "代理商数据",
+        "uid" : "2c9f3feff4fc99e7",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679621809,
+          "stop" : 1654679622374,
+          "duration" : 565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c3', '代理商数据', '', '/advertising/data/agent', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "投手数据",
+        "uid" : "b2a198df9f276be8",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679622527,
+          "stop" : 1654679624330,
+          "duration" : 1803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c4', '投手数据', '', '/advertising/data/pitcher', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "账号数据",
+        "uid" : "6517ba738836a183",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679624339,
+          "stop" : 1654679625168,
+          "duration" : 829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c5', '账号数据', '', '/advertising/data/ad_account', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "计划数据",
+        "uid" : "556e68134adcf24e",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679625170,
+          "stop" : 1654679628595,
+          "duration" : 3425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c6', '计划数据', '', '/advertising/data/plan', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "商品数据",
+        "uid" : "53a5d82af00a56a0",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679628597,
+          "stop" : 1654679630051,
+          "duration" : 1454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c7', '商品数据', '', '/advertising/data/product', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "素材数据",
+        "uid" : "49b0881d3772b6d0",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679630060,
+          "stop" : 1654679631622,
+          "duration" : 1562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c8', '素材数据', '', '/advertising/data/material', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "落地页数据",
+        "uid" : "a3d8d36383a4c261",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679631624,
+          "stop" : 1654679633245,
+          "duration" : 1621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c9', '落地页数据', '', '/advertising/data/put_page', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "MP数据",
+        "uid" : "d5cad4bcdde49a0a",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654679633255,
+          "stop" : 1654679633446,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c10', 'MP数据', '', '/advertising/data/mp', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\"}', '', '', '{\"$.data.content[0].total_cost\":\"${total_cost}\"}']" ]
+      }, {
+        "name" : "素材分析",
+        "uid" : "932cd13ed00fe43d",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679633455,
+          "stop" : 1654679635912,
+          "duration" : 2457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c11', '素材分析', '', '/advertising/data/total_material_analyze', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"project_id\":1,\"camp_id\":100693,\"term_id\":102402,\"begin_time\":\"2021-10-11\",\"end_time\":\"2021-10-17\",\"begin\":105297,\"end\":105297}', '', '', '{\"$.data.content[0].total_cost\":3162130.19}']" ]
+      }, {
+        "name" : "价格包趋势对比-日粒度",
+        "uid" : "f717f2ca9bedb926",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679635915,
+          "stop" : 1654679637290,
+          "duration" : 1375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c12', '价格包趋势对比-日粒度', '', '/advertising/data/price_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\",\"detail_type\":0,\"column_name\":\"total_cost\",\"categorys\":[{\"id\":1,\"name\":\"3.9元\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "价格包趋势对比-期粒度",
+        "uid" : "f85671f9372a10c",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679637293,
+          "stop" : 1654679637842,
+          "duration" : 549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c13', '价格包趋势对比-期粒度', '', '/advertising/data/price_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105297,\"end_time\":105297,\"detail_type\":0,\"column_name\":\"total_cost\",\"categorys\":[{\"id\":1,\"name\":\"3.9元\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "价格包时间对比",
+        "uid" : "bc5bffb459c87cda",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679637845,
+          "stop" : 1654679639182,
+          "duration" : 1337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c14', '价格包时间对比', '', '/advertising/data/price_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105297,105456,105467,105814\",\"term_finish\":\"104817,104972,104983,105112\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"total_cost\",\"categorys\":[{\"id\":1,\"name\":\"3.9元\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道趋势对比-日粒度",
+        "uid" : "a67a8834b3773782",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679639184,
+          "stop" : 1654679640575,
+          "duration" : 1391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c15', '渠道趋势对比-日粒度', '', '/advertising/data/aisle_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\",\"detail_type\":0,\"column_name\":\"total_cost\",\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道趋势对比-期粒度",
+        "uid" : "ca4ac7fe2dbedab3",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679640577,
+          "stop" : 1654679641201,
+          "duration" : 624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c16', '渠道趋势对比-期粒度', '', '/advertising/data/aisle_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105297,\"end_time\":105297,\"detail_type\":0,\"column_name\":\"total_cost\",\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道时间对比",
+        "uid" : "cfc5109ba9d73aaf",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679641203,
+          "stop" : 1654679641751,
+          "duration" : 548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c17', '渠道时间对比', '', '/advertising/data/aisle_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105297,105456,105467,105814\",\"term_finish\":\"104817,104972,104983,105112\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"total_cost\",\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商趋势对比-日粒度",
+        "uid" : "698ac85295ac600e",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679641754,
+          "stop" : 1654679642046,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c18', '代理商趋势对比-日粒度', '', '/advertising/data/agent_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":6,\"name\":\"新榜\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商趋势对比-期粒度",
+        "uid" : "c982ca920fd84cb9",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679642049,
+          "stop" : 1654679642696,
+          "duration" : 647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c19', '代理商趋势对比-期粒度', '', '/advertising/data/agent_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"微盟\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商时间对比",
+        "uid" : "cb263ef8ae68105d",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679642698,
+          "stop" : 1654679643768,
+          "duration" : 1070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c20', '代理商时间对比', '', '/advertising/data/agent_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"微盟\",\"sub\":[]}],\"project_id\":1,\"aisle_id\":2}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据趋势对比-日粒度",
+        "uid" : "6412f972f1941388",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679643771,
+          "stop" : 1654679644241,
+          "duration" : 470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c21', '投手数据趋势对比-日粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据趋势对比-期粒度",
+        "uid" : "e6af4aa215ca4022",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679644244,
+          "stop" : 1654679644913,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c22', '投手数据趋势对比-期粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据时间对比",
+        "uid" : "193f951e3678b09f",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679644916,
+          "stop" : 1654679646023,
+          "duration" : 1107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c23', '投手数据时间对比', '', '/advertising/data/pitcher_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[]}],\"project_id\":1,\"aisle_id\":2}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据趋势对比-日粒度",
+        "uid" : "28829a9d67b43022",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679646025,
+          "stop" : 1654679647573,
+          "duration" : 1548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c24', '账号数据趋势对比-日粒度', '', '/advertising/data/ad_account_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"wx987103c34c239c74\",\"name\":\"变声记\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据趋势对比-期粒度",
+        "uid" : "40e2c1525cc35f7f",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679647575,
+          "stop" : 1654679648261,
+          "duration" : 686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c25', '账号数据趋势对比-期粒度', '', '/advertising/data/ad_account_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"wx987103c34c239c74\",\"name\":\"变声记\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据时间对比",
+        "uid" : "19c15e83123242ee",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679648263,
+          "stop" : 1654679649557,
+          "duration" : 1294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c26', '账号数据时间对比', '', '/advertising/data/ad_account_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"wx987103c34c239c74\",\"name\":\"变声记\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "计划数据趋势对比-日粒度",
+        "uid" : "945745f8fb4f3d21",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679649559,
+          "stop" : 1654679652778,
+          "duration" : 3219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c27', '计划数据趋势对比-日粒度', '', '/advertising/data/plan_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"1105789586\",\"name\":\"0215+高ROI原片+翻拍张老师舒服+皮肤五+【表单】+通投+\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "计划数据趋势对比-期粒度",
+        "uid" : "ae30cc63f2af5519",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679652780,
+          "stop" : 1654679653938,
+          "duration" : 1158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c28', '计划数据趋势对比-期粒度', '', '/advertising/data/plan_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"1105789586\",\"name\":\"0215+高ROI原片+翻拍张老师舒服+皮肤五+【表单】+通投+\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "计划数据时间对比",
+        "uid" : "5ff62cbf9582d1b0",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679653940,
+          "stop" : 1654679654029,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c29', '计划数据时间对比', '', '/advertising/data/plan_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"1105789586\",\"name\":\"0215+高ROI原片+翻拍张老师舒服+皮肤五+【表单】+通投+\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "商品数据趋势对比-日粒度",
+        "uid" : "adc1dcfbf76a14ca",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679654031,
+          "stop" : 1654679655466,
+          "duration" : 1435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c30', '商品数据趋势对比-日粒度', '', '/advertising/data/product_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":21,\"name\":\"5天声音变现体验营\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "商品数据趋势对比-期粒度",
+        "uid" : "5392d580fadbc011",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679655468,
+          "stop" : 1654679656088,
+          "duration" : 620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c31', '商品数据趋势对比-期粒度', '', '/advertising/data/product_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":21,\"name\":\"5天声音变现体验营\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "商品数据时间对比",
+        "uid" : "866d85f21671b099",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679656091,
+          "stop" : 1654679656325,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c32', '商品数据时间对比', '', '/advertising/data/product_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":21,\"name\":\"5天声音变现体验营\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度-日粒度",
+        "uid" : "542b4b9a0c0281cc",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679656327,
+          "stop" : 1654679658006,
+          "duration" : 1679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c33', '素材数据-素材维度-日粒度', '', '/advertising/data/material_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":6,\"name\":\"张弛综合\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度-期粒度",
+        "uid" : "839f5ec589d8c582",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679658014,
+          "stop" : 1654679658910,
+          "duration" : 896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c34', '素材数据-素材维度-期粒度', '', '/advertising/data/material_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":6,\"name\":\"张弛综合\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度时间对比",
+        "uid" : "2bb28dca3308443c",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679658913,
+          "stop" : 1654679661135,
+          "duration" : 2222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c35', '素材数据-素材维度时间对比', '', '/advertising/data/material_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":6,\"name\":\"张弛综合\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-标签维度-日粒度",
+        "uid" : "e33c0af64b43cd53",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679661138,
+          "stop" : 1654679662850,
+          "duration" : 1712
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c36', '素材数据-标签维度-日粒度', '', '/advertising/data/material_tag_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"标签组2\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-标签维度-期粒度",
+        "uid" : "5bebc7d0ef4cd655",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679662853,
+          "stop" : 1654679663817,
+          "duration" : 964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c37', '素材数据-标签维度-期粒度', '', '/advertising/data/material_tag_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"标签组2\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-标签维度时间对比",
+        "uid" : "a8610da5f0b16cc7",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679663820,
+          "stop" : 1654679666204,
+          "duration" : 2384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c38', '素材数据-标签维度时间对比', '', '/advertising/data/material_tag_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"标签组2\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-落地页维度-日粒度",
+        "uid" : "bff82eb1e47ccba4",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679666207,
+          "stop" : 1654679667756,
+          "duration" : 1549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c39', '落地页数据-落地页维度-日粒度', '', '/advertising/data/put_page_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":1137,\"name\":\"变声记-悬浮按钮-1\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-落地页维度-期粒度",
+        "uid" : "d0c3c82a719718e5",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679667758,
+          "stop" : 1654679668372,
+          "duration" : 614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c40', '落地页数据-落地页维度-期粒度', '', '/advertising/data/put_page_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":1137,\"name\":\"变声记-悬浮按钮-1\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-落地页维度时间对比",
+        "uid" : "56009678306604e5",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679668374,
+          "stop" : 1654679668467,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c41', '落地页数据-落地页维度时间对比', '', '/advertising/data/put_page_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":1137,\"name\":\"变声记-悬浮按钮-1\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-皮肤维度-日粒度",
+        "uid" : "322486edb89d1ef0",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679668470,
+          "stop" : 1654679669927,
+          "duration" : 1457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c42', '落地页数据-皮肤维度-日粒度', '', '/advertising/data/put_page_skin_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":50,\"name\":\"声音微信皮肤1\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-皮肤维度-期粒度",
+        "uid" : "c8e1fda47485c7f",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679669930,
+          "stop" : 1654679670544,
+          "duration" : 614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c43', '落地页数据-皮肤维度-期粒度', '', '/advertising/data/put_page_skin_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":50,\"name\":\"声音微信皮肤1\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-皮肤维度时间对比",
+        "uid" : "be0010b7e3087516",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679670546,
+          "stop" : 1654679670906,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c44', '落地页数据-皮肤维度时间对比', '', '/advertising/data/put_page_skin_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":50,\"name\":\"声音微信皮肤1\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "MP数据-投放维度-日粒度",
+        "uid" : "20ca6070083f5d98",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679670908,
+          "stop" : 1654679671435,
+          "duration" : 527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c45', 'MP数据-投放维度-日粒度', '', '/advertising/data/mp_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "MP数据-投放维度-期粒度",
+        "uid" : "f9ed04a83d4ad722",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679671437,
+          "stop" : 1654679672069,
+          "duration" : 632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c46', 'MP数据-投放维度-期粒度', '', '/advertising/data/mp_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "MP数据-投放维度时间对比",
+        "uid" : "b7a69f2cc6b92007",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679672072,
+          "stop" : 1654679672456,
+          "duration" : 384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c47', 'MP数据-投放维度时间对比', '', '/advertising/data/mp_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\",\"sub\":[]}],\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "派单买A数据-派单-日粒度",
+        "uid" : "ca423e0346d04fb8",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679672458,
+          "stop" : 1654679672593,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c48', '派单买A数据-派单-日粒度', '', '/advertising/data/deliver_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":\"special_link_convert_num\",\"categorys\":[{\"id\":\"554a50a07f3e11ec8b9fda4945f85c98\",\"name\":\"daszx按时发放时\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "派单买A数据-派单-期粒度",
+        "uid" : "d95f1e5a3a7fe857",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679672595,
+          "stop" : 1654679672887,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c49', '派单买A数据-派单-期粒度', '', '/advertising/data/deliver_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"special_link_convert_num\",\"categorys\":[{\"id\":\"554a50a07f3e11ec8b9fda4945f85c98\",\"name\":\"daszx按时发放时\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "派单买A数据-派单时间对比",
+        "uid" : "d7be1adcd17f99ef",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679672889,
+          "stop" : 1654679673011,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c50', '派单买A数据-派单时间对比', '', '/advertising/data/deliver_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":0,\"column_name\":\"special_link_convert_num\",\"categorys\":[{\"id\":\"554a50a07f3e11ec8b9fda4945f85c98\",\"name\":\"daszx按时发放时\",\"sub\":[]}],\"project_id\":1,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材分析-素材大盘期粒度",
+        "uid" : "9b93e95bc8c6b512",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679673014,
+          "stop" : 1654679673899,
+          "duration" : 885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c51', '素材分析-素材大盘期粒度', '', '/advertising/data/material_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":1,\"name\":\"富素人三冬暖\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材分析-总分维度期粒度",
+        "uid" : "75f3f557b52b7bd0",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679673901,
+          "stop" : 1654679676714,
+          "duration" : 2813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c52', '素材分析-总分维度期粒度', '', '/advertising/data/material_analyze_type_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":0,\"name\":\"新素材\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材分析-素材大盘期粒度",
+        "uid" : "7e1f9f671b8e7dac",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679676717,
+          "stop" : 1654679677691,
+          "duration" : 974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c53', '素材分析-素材大盘期粒度', '', '/advertising/data/material_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"张弛综合\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "价格包数据-广告渠道细分-日粒度",
+        "uid" : "c416906f8fc46d8f",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679677693,
+          "stop" : 1654679679194,
+          "duration" : 1501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c54', '价格包数据-广告渠道细分-日粒度', '', '/advertising/data/price_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"1元\",\"sub\":[{\"id\":2,\"name\":\"微信广告\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "价格包数据-广告渠道细分-期粒度",
+        "uid" : "c009fb3771f7f3c1",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679679196,
+          "stop" : 1654679679847,
+          "duration" : 651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c55', '价格包数据-广告渠道细分-期粒度', '', '/advertising/data/price_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"1元\",\"sub\":[{\"id\":2,\"name\":\"微信广告\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "价格包数据-广告渠道细分-时间对比",
+        "uid" : "34140a755e14d659",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679679849,
+          "stop" : 1654679680366,
+          "duration" : 517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c56', '价格包数据-广告渠道细分-时间对比', '', '/advertising/data/price_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"1元\",\"sub\":[{\"id\":2,\"name\":\"微信广告\"}]}],\"project_id\":1,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道数据-代理商细分-日粒度",
+        "uid" : "74e424db360a7f8d",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679680368,
+          "stop" : 1654679682046,
+          "duration" : 1678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c57', '渠道数据-代理商细分-日粒度', '', '/advertising/data/aisle_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[{\"id\":7,\"name\":\"微盟\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道数据-代理商细分-期粒度",
+        "uid" : "d463a0e8def88fb4",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679682049,
+          "stop" : 1654679683461,
+          "duration" : 1412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c58', '渠道数据-代理商细分-期粒度', '', '/advertising/data/aisle_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[{\"id\":7,\"name\":\"微盟\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道数据-代理商细分-时间对比",
+        "uid" : "149c3b0b5fd25edb",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679683463,
+          "stop" : 1654679684001,
+          "duration" : 538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c59', '渠道数据-代理商细分-时间对比', '', '/advertising/data/aisle_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[{\"id\":7,\"name\":\"微盟\"}]}],\"project_id\":1,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商数据-投手细分-日粒度",
+        "uid" : "d6e7fb6452b6de82",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679684003,
+          "stop" : 1654679684461,
+          "duration" : 458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c60', '代理商数据-投手细分-日粒度', '', '/advertising/data/agent_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"微盟\",\"sub\":[{\"id\":42,\"name\":\"王建行\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商数据-投手细分-期粒度",
+        "uid" : "6fd78cbbdbf0d410",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679684464,
+          "stop" : 1654679685037,
+          "duration" : 573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c61', '代理商数据-投手细分-期粒度', '', '/advertising/data/agent_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"微盟\",\"sub\":[{\"id\":42,\"name\":\"王建行\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商数据-投手细分-时间对比",
+        "uid" : "389bf1fcfc13cd0c",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679685040,
+          "stop" : 1654679686056,
+          "duration" : 1016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c62', '代理商数据-投手细分-时间对比', '', '/advertising/data/agent_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"微盟\",\"sub\":[]}],\"project_id\":1,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商数据-广告账号细分-日粒度",
+        "uid" : "358d5a19444f0602",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679686059,
+          "stop" : 1654679686365,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c63', '代理商数据-广告账号细分-日粒度', '', '/advertising/data/agent_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":9,\"name\":\"鱼悦\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商数据-广告账号细分-期粒度",
+        "uid" : "7e1e779832a29dc2",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679686367,
+          "stop" : 1654679687549,
+          "duration" : 1182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c64', '代理商数据-广告账号细分-期粒度', '', '/advertising/data/agent_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":9,\"name\":\"鱼悦\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商数据-广告账号细分-时间对比",
+        "uid" : "42398fdd020c754",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679687551,
+          "stop" : 1654679688725,
+          "duration" : 1174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c65', '代理商数据-广告账号细分-时间对比', '', '/advertising/data/agent_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":9,\"name\":\"鱼悦\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据-代理商细分-日粒度",
+        "uid" : "e6e4d23d668b6",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679688727,
+          "stop" : 1654679689195,
+          "duration" : 468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c66', '投手数据-代理商细分-日粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":9,\"name\":\"鱼悦\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据-代理商细分-期粒度",
+        "uid" : "198da6ac7a6d2439",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679689197,
+          "stop" : 1654679689712,
+          "duration" : 515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c67', '投手数据-代理商细分-期粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":9,\"name\":\"鱼悦\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据-代理商细分-时间对比",
+        "uid" : "cfb00efcfefaf518",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679689714,
+          "stop" : 1654679690859,
+          "duration" : 1145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c68', '投手数据-代理商细分-时间对比', '', '/advertising/data/pitcher_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":9,\"name\":\"鱼悦\"}]}],\"project_id\":1,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据-广告账号细分-日粒度",
+        "uid" : "f50348b24032f5c4",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679690861,
+          "stop" : 1654679691329,
+          "duration" : 468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c69', '投手数据-广告账号细分-日粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据-广告账号细分-期粒度",
+        "uid" : "8c295e39b27072c3",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679691331,
+          "stop" : 1654679691892,
+          "duration" : 561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c70', '投手数据-广告账号细分-期粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据-广告账号细分-时间对比",
+        "uid" : "532c5e0d49c3dd8c",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679691894,
+          "stop" : 1654679692997,
+          "duration" : 1103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c71', '投手数据-广告账号细分-时间对比', '', '/advertising/data/pitcher_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据-素材细分-日粒度",
+        "uid" : "e1be4162116da5e3",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679693000,
+          "stop" : 1654679694994,
+          "duration" : 1994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c72', '账号数据-素材细分-日粒度', '', '/advertising/data/ad_account_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"10696682\",\"name\":\"梨花自运营-晴17-声音1户\",\"sub\":[{\"id\":65,\"name\":\"新原片\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据-素材细分-期粒度",
+        "uid" : "14694b6d9f66182a",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679694997,
+          "stop" : 1654679695995,
+          "duration" : 998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c73', '账号数据-素材细分-期粒度', '', '/advertising/data/ad_account_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"10696682\",\"name\":\"梨花自运营-晴17-声音1户\",\"sub\":[{\"id\":65,\"name\":\"新原片\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据-素材细分-时间对比",
+        "uid" : "f8ab0339065f6c9e",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679695997,
+          "stop" : 1654679697374,
+          "duration" : 1377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c74', '账号数据-素材细分-时间对比', '', '/advertising/data/ad_account_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":\"10696682\",\"name\":\"梨花自运营-晴17-声音1户\",\"sub\":[{\"id\":65,\"name\":\"新原片\"}]}],\"project_id\":1,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度-广告账号细分-日粒度",
+        "uid" : "a9750d45effc6653",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679697376,
+          "stop" : 1654679699089,
+          "duration" : 1713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c75', '素材数据-素材维度-广告账号细分-日粒度', '', '/advertising/data/material_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"张弛综合\",\"sub\":[{\"id\":3,\"name\":\"巨量\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度-广告账号细分-期粒度",
+        "uid" : "1d6d350408fc62f8",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679699092,
+          "stop" : 1654679700087,
+          "duration" : 995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c76', '素材数据-素材维度-广告账号细分-期粒度', '', '/advertising/data/material_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"张弛综合\",\"sub\":[{\"id\":3,\"name\":\"巨量\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度-广告账号细分-时间对比",
+        "uid" : "90e2ef2f597ffb83",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679700090,
+          "stop" : 1654679700568,
+          "duration" : 478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c77', '素材数据-素材维度-广告账号细分-时间对比', '', '/advertising/data/material_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"张弛综合\",\"sub\":[{\"id\":3,\"name\":\"巨量\"}]}],\"project_id\":1,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度-价格包细分-日粒度",
+        "uid" : "7d9b7c9a0aaee1e5",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679700571,
+          "stop" : 1654679702559,
+          "duration" : 1988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c78', '素材数据-素材维度-价格包细分-日粒度', '', '/advertising/data/material_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"张弛综合\",\"sub\":[{\"id\":1,\"name\":\"3.9元\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度-价格包细分-期粒度",
+        "uid" : "8c153787273a607b",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679702561,
+          "stop" : 1654679703580,
+          "duration" : 1019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c79', '素材数据-素材维度-价格包细分-期粒度', '', '/advertising/data/material_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"张弛综合\",\"sub\":[{\"id\":1,\"name\":\"3.9元\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-素材维度-价格包细分-时间对比",
+        "uid" : "bb3a759f88ac9b4a",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679703582,
+          "stop" : 1654679705082,
+          "duration" : 1500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c80', '素材数据-素材维度-价格包细分-时间对比', '', '/advertising/data/material_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":7,\"name\":\"张弛综合\",\"sub\":[{\"id\":1,\"name\":\"3.9元\"}]}],\"project_id\":1,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-标签维度-素材标签-日粒度",
+        "uid" : "bb2b08f150a8125a",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679705085,
+          "stop" : 1654679706710,
+          "duration" : 1625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c81', '素材数据-标签维度-素材标签-日粒度', '', '/advertising/data/material_tag_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":6,\"name\":\"图片类\",\"sub\":[{\"id\":458,\"name\":\"图片1\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-标签维度-素材标签-期粒度",
+        "uid" : "a83d3f91dabc1a0b",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679706712,
+          "stop" : 1654679707691,
+          "duration" : 979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c82', '素材数据-标签维度-素材标签-期粒度', '', '/advertising/data/material_tag_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":6,\"name\":\"图片类\",\"sub\":[{\"id\":458,\"name\":\"图片1\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-标签维度-素材标签-时间对比",
+        "uid" : "44d19aec17b5de6b",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679707694,
+          "stop" : 1654679709975,
+          "duration" : 2281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c83', '素材数据-标签维度-素材标签-时间对比', '', '/advertising/data/material_tag_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":6,\"name\":\"图片类\",\"sub\":[{\"id\":458,\"name\":\"图片1\"}]}],\"project_id\":1,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-皮肤维度-落地页细分-日粒度",
+        "uid" : "111052f79929dca1",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679709977,
+          "stop" : 1654679711409,
+          "duration" : 1432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c84', '落地页数据-皮肤维度-落地页细分-日粒度', '', '/advertising/data/put_page_skin_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":111,\"name\":\"声音微信皮肤2\",\"sub\":[{\"id\":1396,\"name\":\"0秒-声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-皮肤维度-落地页细分-期粒度",
+        "uid" : "c19fd5f937487df4",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679711412,
+          "stop" : 1654679712084,
+          "duration" : 672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c85', '落地页数据-皮肤维度-落地页细分-期粒度', '', '/advertising/data/put_page_skin_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":111,\"name\":\"声音微信皮肤2\",\"sub\":[{\"id\":1396,\"name\":\"0秒-声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据-皮肤维度-落地页细分-时间对比",
+        "uid" : "f82a4b06209b42d6",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679712086,
+          "stop" : 1654679712193,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c86', '落地页数据-皮肤维度-落地页细分-时间对比', '', '/advertising/data/put_page_skin_trend_time', 'post', 'json', '', '{\"camp_id\":100693,\"material_type\":0,\"term_start\":\"105308,105456,105467,105814\",\"term_finish\":\"104972,104983,105112,105297\",\"tid\":17,\"grain_type\":2,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":111,\"name\":\"声音微信皮肤2\",\"sub\":[{\"id\":1396,\"name\":\"0秒-声优大本营\"}]}],\"project_id\":1,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-看板",
+        "uid" : "5ac20b400681c2e1",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679712196,
+          "stop" : 1654679712452,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c87', '首页-看板', '', '/advertising/index/kanban', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-渠道获客分布",
+        "uid" : "e9f090b0775a2d32",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679712454,
+          "stop" : 1654679712761,
+          "duration" : 307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c88', '首页-渠道获客分布', '', '/advertising/index/get_guest_aisle', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-计划监控",
+        "uid" : "7d7ccb5863d1825f",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679712764,
+          "stop" : 1654679714123,
+          "duration" : 1359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c89', '首页-计划监控', '', '/advertising/index/plan_consume', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-top10素材",
+        "uid" : "f77572317a311b8a",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679714126,
+          "stop" : 1654679715014,
+          "duration" : 888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c90', '首页-top10素材', '', '/advertising/index/material', 'post', 'json', '', '{\"tid\":17,\"aisle_id\":0,\"camp_id\":100693,\"detail_type\":0,\"pitcher_id\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-人均获客趋势",
+        "uid" : "62aa5a5206a0de3a",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679715017,
+          "stop" : 1654679715367,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c91', '首页-人均获客趋势', '', '/advertising/index/get_guest_trend', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-人均获客成本",
+        "uid" : "44e0966f680166b4",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679715369,
+          "stop" : 1654679715690,
+          "duration" : 321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c92', '首页-人均获客成本', '', '/advertising/index/get_guest_cost_trend', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":0}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-版位",
+        "uid" : "9d4af05fc525ca48",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679715692,
+          "stop" : 1654679715941,
+          "duration" : 249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c93', '首页-版位', '', '/advertising/index/ad_position', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-等级",
+        "uid" : "5f5d06f0cdab1737",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679715942,
+          "stop" : 1654679716292,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c94', '首页-等级', '', '/advertising/index/ad_level', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "员工-总获客目标",
+        "uid" : "980b6d6ba7802c56",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679716294,
+          "stop" : 1654679718441,
+          "duration" : 2147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c95', '员工-总获客目标', '', '/advertising/data/pitcher_summary', 'post', 'json', '', '{\"project_id\":1,\"camp_id\":100693,\"page\":1,\"limit\":20,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\",\"tid\":17}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "员工-总获客目标查询",
+        "uid" : "a305b48f44bcc665",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679718444,
+          "stop" : 1654679720520,
+          "duration" : 2076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c96', '员工-总获客目标查询', '', '/advertising/data/pitcher_summary', 'post', 'json', '', '{\"project_id\":1,\"camp_id\":100693,\"page\":1,\"limit\":20,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\",\"pitcher_id\":46,\"tid\":17}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "员工-总获客目标修改",
+        "uid" : "b6f0de2109e47842",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679720523,
+          "stop" : 1654679720647,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c97', '员工-总获客目标修改', '', '/advertising/data/modify_pitcher_target', 'post', 'json', '', '{\"tid\":17,\"project_id\":1,\"camp_id\":100693,\"term_id\":105814,\"id\":\"99\",\"target_guest\":10,\"budget\":100}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "员工-投手获客目标",
+        "uid" : "79f725fc1e24577e",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679720649,
+          "stop" : 1654679722928,
+          "duration" : 2279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c98', '员工-投手获客目标', '', '/advertising/data/pitcher_target', 'post', 'json', '', '{\"project_id\":1,\"camp_id\":100693,\"page\":1,\"limit\":20,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\",\"tid\":17}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "员工-投手获客目标查询",
+        "uid" : "569c69af85f170b7",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679722930,
+          "stop" : 1654679723453,
+          "duration" : 523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c99', '员工-投手获客目标查询', '', '/advertising/data/pitcher_target', 'post', 'json', '', '{\"project_id\":1,\"camp_id\":100693,\"page\":1,\"limit\":20,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\",\"pitcher_id\":46,\"agent_id\":6,\"aisle_id\":2,\"price_name\":\"1元\",\"tid\":17}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "员工-投手获客目标修改",
+        "uid" : "c248d46ae925ca53",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679723456,
+          "stop" : 1654679723585,
+          "duration" : 129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c100', '员工-投手获客目标修改', '', '/advertising/data/modify_pitcher_target', 'post', 'json', '', '{\"tid\":17,\"project_id\":1,\"camp_id\":100693,\"term_id\":105814,\"id\":\"104\",\"target_guest\":3,\"budget\":3}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "价格包-搜索",
+        "uid" : "f985e257cee0c770",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679723588,
+          "stop" : 1654679723935,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c101', '价格包-搜索', '', '/advertising/data/price', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":10,\"aisle_id\":1,\"aisle_id_sub\":\"主渠道\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道数据搜索",
+        "uid" : "f2e8698446e29be7",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679723937,
+          "stop" : 1654679724133,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c102', '渠道数据搜索', '', '/advertising/data/aisle', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "代理商数据搜索",
+        "uid" : "95c4259074f0a877",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679724136,
+          "stop" : 1654679724640,
+          "duration" : 504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c103', '代理商数据搜索', '', '/advertising/data/agent', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投手数据搜索",
+        "uid" : "9ea66d2f761fd3f1",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679724643,
+          "stop" : 1654679725179,
+          "duration" : 536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c104', '投手数据搜索', '', '/advertising/data/pitcher', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"agent_id\":9,\"pitcher_id\":43,\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据搜索",
+        "uid" : "ebf8e40b08ddb6d6",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679725181,
+          "stop" : 1654679725728,
+          "duration" : 547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c105', '账号数据搜索', '', '/advertising/data/ad_account', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"agent_id\":9,\"pitcher_id\":43,\"price_name\":\"1元\",\"ad_account_id\":\"声优大本营\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "计划数据搜索",
+        "uid" : "9c52c15d2182f020",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679725731,
+          "stop" : 1654679725783,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c106', '计划数据搜索', '', '/advertising/data/plan', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"agent_id\":9,\"pitcher_id\":43,\"price_name\":\"1元\",\"put_page_name\":\"菜单栏-声优大本营-中\",\"put_page_id\":1064,\"ad_plan_id\":\"4630506443\",\"ad_account_id\":\"声优大本营\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "商品数据搜索",
+        "uid" : "43fd82c92746ea2",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679725785,
+          "stop" : 1654679725991,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c107', '商品数据搜索', '', '/advertising/data/product', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材数据-搜索",
+        "uid" : "8ce3fc90422176e2",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679725998,
+          "stop" : 1654679726817,
+          "duration" : 819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c108', '素材数据-搜索', '', '/advertising/data/material', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"material_name\":\"张弛配音师生活\",\"data_type\":1,\"tag_group\":6,\"price_name\":\"1元\",\"pitcher_id\":43,\"agent_id\":9,\"tags\":[458],\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "标签数据搜索",
+        "uid" : "8bd86c9bfcd3c459",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679726819,
+          "stop" : 1654679727791,
+          "duration" : 972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c109', '标签数据搜索', '', '/advertising/data/material_tag', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"tag_group\":6,\"price_name\":\"1元\",\"pitcher_id\":43,\"agent_id\":9,\"tags\":[458],\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "落地页数据搜索",
+        "uid" : "ad6d324216d28a34",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679727794,
+          "stop" : 1654679728324,
+          "duration" : 530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c110', '落地页数据搜索', '', '/advertising/data/put_page', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"put_page_name\":\"菜单栏-播音声音学习社\",\"put_page_id\":5634,\"product_id\":31,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "皮肤数据-搜索",
+        "uid" : "577c1dee9445251e",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679728327,
+          "stop" : 1654679728796,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c111', '皮肤数据-搜索', '', '/advertising/data/put_page_skin', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"skin_name\":\"声音微信皮肤1\",\"product_id\":31,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "投放维度-搜索",
+        "uid" : "4992ea5c5dd2f454",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679728799,
+          "stop" : 1654679729015,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c112', '投放维度-搜索', '', '/advertising/data/mp', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"app_id\":\"声优大本营\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "入口维度-搜索",
+        "uid" : "c9cf8add3d321ab4",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679729017,
+          "stop" : 1654679729284,
+          "duration" : 267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c113', '入口维度-搜索', '', '/advertising/data/mp_enter', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"app_id\":\"wxc4dbeb49c1a8c918\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "回本策略维度-搜索",
+        "uid" : "3ae4bf4ac9e9f97f",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679729286,
+          "stop" : 1654679729764,
+          "duration" : 478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c114', '回本策略维度-搜索', '', '/advertising/data/mp_strategy', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105814,\"begin_time\":\"2022-03-28\",\"end_time\":\"2022-04-03\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "版位维度-搜索",
+        "uid" : "21c0c4f729927d21",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679729767,
+          "stop" : 1654679730212,
+          "duration" : 445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c115', '版位维度-搜索', '', '/advertising/data/mp_position', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"position\":\"第一版位\",\"app_id\":\"wxc4dbeb49c1a8c918\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "等级维度-搜索",
+        "uid" : "930cd663d2377e44",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679730214,
+          "stop" : 1654679730642,
+          "duration" : 428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c116', '等级维度-搜索', '', '/advertising/data/mp_level', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"level\":\"第四\",\"app_id\":\"wxc4dbeb49c1a8c918\",\"price_name\":\"1元\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "派单搜索",
+        "uid" : "66b8b639c313c881",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679730644,
+          "stop" : 1654679730886,
+          "duration" : 242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c117', '派单搜索', '', '/advertising/data/deliver', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"app_name\":\"李月亮\",\"src_aisle\":\"channel_default_h1\",\"level\":\"T2\",\"copywriter_id\":7,\"deliver_num\":\"四投\",\"delivery_time\":[\"2022-03-11\",\"2022-03-13\"],\"app_type\":\"情感号\",\"src_aisle_note\":\"正\",\"ad_account_id\":\"测试柒\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "买A搜索",
+        "uid" : "a56d79f5ae42fe8c",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679730889,
+          "stop" : 1654679731154,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c118', '买A搜索', '', '/advertising/data/buy_a', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"app_name\":\"买a测测\",\"src_aisle\":\"channel_default_1xl3\",\"level\":\"T2\",\"deliver_num\":\"五投\",\"src_aisle_note\":\"1\",\"ad_account_id\":\"测试捌\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材大盘搜索",
+        "uid" : "acec4931268c210b",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679731157,
+          "stop" : 1654679732805,
+          "duration" : 1648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c119', '素材大盘搜索', '', '/advertising/data/total_material_analyze', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":20,\"material_name\":\"语录前贴混剪\",\"material_range\":2,\"material_type\":[],\"aisle_id\":5,\"aisle_id_sub\":\"主渠道\",\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\",\"begin\":105297,\"end\":105297}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "总分维度-搜索",
+        "uid" : "2270d7c22eba7c47",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679732807,
+          "stop" : 1654679733501,
+          "duration" : 694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c120', '总分维度-搜索', '', '/advertising/data/material_analyze', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":10,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\",\"detail_type\":1,\"begin\":104972,\"end\":105297,\"material_range\":2,\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "素材分类维度-搜索",
+        "uid" : "4601082fe1c49d03",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679733503,
+          "stop" : 1654679734304,
+          "duration" : 801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c121', '素材分类维度-搜索', '', '/advertising/data/material_analyze_detail', 'post', 'json', '', '{\"tid\":17,\"page\":1,\"limit\":10,\"project_id\":1,\"camp_id\":100693,\"term_id\":105297,\"begin_time\":\"2022-03-02\",\"end_time\":\"2022-03-06\",\"detail_type\":1,\"begin\":104972,\"end\":105297,\"material_type\":0,\"material_name\":\"富素人三冬暖\",\"aisle_id\":2,\"aisle_id_sub\":\"主渠道\"}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-看板-投手",
+        "uid" : "4101993612c0333f",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679734307,
+          "stop" : 1654679734755,
+          "duration" : 448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c122', '首页-看板-投手', '', '/advertising/index/kanban', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":46}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-渠道获客分布-投手",
+        "uid" : "fba6237fc3ebacb6",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679734757,
+          "stop" : 1654679734928,
+          "duration" : 171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c123', '首页-渠道获客分布-投手', '', '/advertising/index/get_guest_aisle', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":46}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-计划监控-投手",
+        "uid" : "e98ff09ad2e8baaf",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679734930,
+          "stop" : 1654679736317,
+          "duration" : 1387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c124', '首页-计划监控-投手', '', '/advertising/index/plan_consume', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":46}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-人均获客趋势-投手",
+        "uid" : "422d4a260f1b1089",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679736320,
+          "stop" : 1654679736620,
+          "duration" : 300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c125', '首页-人均获客趋势-投手', '', '/advertising/index/get_guest_trend', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":46}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "首页-人均获客成本-投手",
+        "uid" : "ac22326df5d01a7",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679736622,
+          "stop" : 1654679736839,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c126', '首页-人均获客成本-投手', '', '/advertising/index/get_guest_cost_trend', 'post', 'json', '', '{\"tid\":17,\"camp_id\":100693,\"pitcher_id\":46}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道数据-指标对比-日粒度",
+        "uid" : "644c589fb9c00edc",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679736841,
+          "stop" : 1654679738512,
+          "duration" : 1671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c127', '渠道数据-指标对比-日粒度', '', '/advertising/data/aisle_index_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":[\"roi\",\"high_immersion_purchased_day3_rate\"],\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[]}],\"camp_id\":100693,\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道数据-指标对比-期粒度",
+        "uid" : "e7c3cfa678567c03",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679738514,
+          "stop" : 1654679740659,
+          "duration" : 2145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c128', '渠道数据-指标对比-期粒度', '', '/advertising/data/aisle_index_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105814,\"detail_type\":0,\"column_name\":[\"roi\",\"high_immersion_purchased_day3_rate\"],\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[]}],\"camp_id\":100693,\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道数据-指标对比-代理商细分-期粒度",
+        "uid" : "1589e7c1a02cdebe",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679740662,
+          "stop" : 1654679743650,
+          "duration" : 2988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c129', '渠道数据-指标对比-代理商细分-期粒度', '', '/advertising/data/aisle_index_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105814,\"detail_type\":1,\"column_name\":[\"roi\",\"high_immersion_purchased_day3_rate\"],\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[{\"id\":7,\"name\":\"微盟\"}]}],\"camp_id\":100693,\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "渠道数据-指标对比-代理商细分-日粒度",
+        "uid" : "60db07ab6678557e",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679743653,
+          "stop" : 1654679745448,
+          "duration" : 1795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c130', '渠道数据-指标对比-代理商细分-日粒度', '', '/advertising/data/aisle_index_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":[\"roi\",\"high_immersion_purchased_day3_rate\"],\"categorys\":[{\"id\":2,\"name\":\"微信广告\",\"sub\":[{\"id\":7,\"name\":\"微盟\"}]}],\"camp_id\":100693,\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据-指标对比-日粒度",
+        "uid" : "f6dfea3426891b87",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679745450,
+          "stop" : 1654679747110,
+          "duration" : 1660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c131', '账号数据-指标对比-日粒度', '', '/advertising/data/ad_account_index_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":0,\"column_name\":[\"roi\",\"high_immersion_purchased_day3_rate\"],\"categorys\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\",\"sub\":[]}],\"camp_id\":100693,\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据-指标对比-期粒度",
+        "uid" : "7b0a2df66e9312e8",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679747113,
+          "stop" : 1654679749242,
+          "duration" : 2129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c132', '账号数据-指标对比-期粒度', '', '/advertising/data/ad_account_index_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105814,\"detail_type\":0,\"column_name\":[\"roi\",\"high_immersion_purchased_day3_rate\"],\"categorys\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\",\"sub\":[]}],\"camp_id\":100693,\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据-指标对比-素材细分-期粒度",
+        "uid" : "e5e95d3c10221e69",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679749245,
+          "stop" : 1654679752550,
+          "duration" : 3305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c133', '账号数据-指标对比-素材细分-期粒度', '', '/advertising/data/ad_account_index_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105814,\"detail_type\":1,\"column_name\":[\"roi\",\"high_immersion_purchased_day3_rate\"],\"categorys\":[{\"id\":\"10696682\",\"name\":\"梨花自运营-晴17-声音1户\",\"sub\":[{\"id\":64,\"name\":\"情感语录混剪\"}]}],\"camp_id\":100693,\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "账号数据-指标对比-素材细分-日粒度",
+        "uid" : "8d242eff64c66ee1",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679752553,
+          "stop" : 1654679754802,
+          "duration" : 2249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c134', '账号数据-指标对比-素材细分-日粒度', '', '/advertising/data/ad_account_index_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":1,\"column_name\":[\"roi\",\"high_immersion_purchased_day3_rate\"],\"categorys\":[{\"id\":\"10696682\",\"name\":\"梨花自运营-晴17-声音1户\",\"sub\":[{\"id\":64,\"name\":\"情感语录混剪\"}]}],\"camp_id\":100693,\"project_id\":1}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "员工-总获客目标-85期",
+        "uid" : "ee7076508fa6c9cc",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679754804,
+          "stop" : 1654679756761,
+          "duration" : 1957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c135', '员工-总获客目标-85期', '', '/advertising/data/pitcher_summary', 'post', 'json', '', '{\"project_id\":1,\"camp_id\":100693,\"page\":1,\"limit\":20,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"pitcher_id\":46,\"tid\":17}', '', '', '{\"$.code\":0}']" ]
+      }, {
+        "name" : "员工-投手获客目标-85期",
+        "uid" : "186143f7425deee8",
+        "parentUid" : "5ec56e5acb19289a654b41c9fccc3a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654679756764,
+          "stop" : 1654679758871,
+          "duration" : 2107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['c136', '员工-投手获客目标-85期', '', '/advertising/data/pitcher_target', 'post', 'json', '', '{\"project_id\":1,\"camp_id\":100693,\"page\":1,\"limit\":20,\"term_id\":105308,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"tid\":17}', '', '', '{\"$.code\":0}']" ]
+      } ],
+      "uid" : "5ec56e5acb19289a654b41c9fccc3a4c"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ]
+}

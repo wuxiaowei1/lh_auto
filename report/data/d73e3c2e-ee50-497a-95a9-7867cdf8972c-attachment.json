@@ -1,0 +1,58 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": {
+            "data": [
+                {
+                    "line_name": "平均获客成本",
+                    "x_id": "106200",
+                    "x_name": "91",
+                    "y_value": 0
+                },
+                {
+                    "line_name": "平均获客成本",
+                    "x_id": "106579",
+                    "x_name": "92",
+                    "y_value": 0
+                },
+                {
+                    "line_name": "平均获客成本",
+                    "x_id": "106760",
+                    "x_name": "93",
+                    "y_value": 0
+                },
+                {
+                    "line_name": "平均获客成本",
+                    "x_id": "106771",
+                    "x_name": "94",
+                    "y_value": 0
+                },
+                {
+                    "line_name": "平均获客成本",
+                    "x_id": "107130",
+                    "x_name": "95",
+                    "y_value": 0
+                },
+                {
+                    "line_name": "平均获客成本",
+                    "x_id": "107142",
+                    "x_name": "96",
+                    "y_value": 0
+                },
+                {
+                    "line_name": "平均获客成本",
+                    "x_id": "107534",
+                    "x_name": "97",
+                    "y_value": 0
+                },
+                {
+                    "line_name": "平均获客成本",
+                    "x_id": "107545",
+                    "x_name": "98",
+                    "y_value": 0
+                }
+            ]
+        }
+    }
+}

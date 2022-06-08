@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "get_guest_cost": 10.0,
+                "budget": 100.0,
+                "get_guest_num": 381.0,
+                "real_price": 68717.64,
+                "target_guest": 10.0,
+                "low_class_num": 433.0,
+                "average_conver_consume": 158.7,
+                "pitcher_name": "合计",
+                "pitcher_id": 0,
+                "term_id": 105814,
+                "camp_id": 100693,
+                "camp_name": "声音变现一转（低价）",
+                "rank": 88,
+                "begin_time": "2022-03-28",
+                "end_time": "2022-04-03",
+                "today_guest_degree_of_completion": 43.3,
+                "guest_progress": 43.3,
+                "id": null
+            },
+            {
+                "get_guest_cost": 10.0,
+                "budget": 100.0,
+                "get_guest_num": 381.0,
+                "real_price": 68717.64,
+                "target_guest": 10.0,
+                "low_class_num": 433.0,
+                "average_conver_consume": 158.7,
+                "pitcher_name": "吴小伟",
+                "pitcher_id": 46,
+                "term_id": 105814,
+                "camp_id": 100693,
+                "camp_name": "声音变现一转（低价）",
+                "rank": 88,
+                "begin_time": "2022-03-28",
+                "end_time": "2022-04-03",
+                "today_guest_degree_of_completion": 43.3,
+                "guest_progress": 43.3,
+                "id": "99"
+            }
+        ],
+        "count": 2,
+        "total_get_guest_num": 433,
+        "total_target_guest": 10
+    }
+}

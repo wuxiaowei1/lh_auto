@@ -1,0 +1,15 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_id": 0,
+                "line_name": "新素材",
+                "x_name": 85,
+                "y_value": 4824.0
+            }
+        ],
+        "count": 1
+    }
+}

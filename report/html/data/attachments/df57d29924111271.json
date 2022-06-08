@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": 85,
+                "x_id": 0,
+                "y_value": 14.0,
+                "line_name": "变声记-悬浮按钮-1"
+            }
+        ]
+    }
+}

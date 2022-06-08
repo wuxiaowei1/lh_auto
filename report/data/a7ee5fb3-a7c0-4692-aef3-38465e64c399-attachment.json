@@ -1,0 +1,19 @@
+{
+    "tid": 17,
+    "grain_type": 2,
+    "begin_time": 105308,
+    "end_time": 105308,
+    "detail_type": 0,
+    "column_name": "special_link_convert_num",
+    "categorys": [
+        {
+            "id": "554a50a07f3e11ec8b9fda4945f85c98",
+            "name": "daszx按时发放时",
+            "sub": []
+        }
+    ],
+    "project_id": 1,
+    "camp_id": 100693,
+    "material_type": 0,
+    "trend_type": "ad_account_id"
+}

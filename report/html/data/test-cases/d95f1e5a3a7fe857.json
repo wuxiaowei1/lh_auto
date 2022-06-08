@@ -1,0 +1,216 @@
+{
+  "uid" : "d95f1e5a3a7fe857",
+  "name" : "派单买A数据-派单-期粒度",
+  "fullName" : "test.test_api#test_main",
+  "historyId" : "d90cba7385e9471943c57cd1332d0ac5",
+  "time" : {
+    "start" : 1654679672595,
+    "stop" : 1654679672887,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1654679672595,
+      "stop" : 1654679672595,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址: https://lh-launch-platform.dev1.weike.fm/advertising/data/deliver_trend",
+      "time" : {
+        "start" : 1654679672595,
+        "stop" : 1654679672595,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1654679672596,
+        "stop" : 1654679672596,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a9087e762ffb73b",
+        "name" : "请求头",
+        "source" : "4a9087e762ffb73b.json",
+        "type" : "application/json",
+        "size" : 204
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "请求数据",
+      "time" : {
+        "start" : 1654679672597,
+        "stop" : 1654679672597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec2c95353918ec45",
+        "name" : "请求数据",
+        "source" : "ec2c95353918ec45.json",
+        "type" : "application/json",
+        "size" : 426
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "响应耗时(s): 0.286538",
+      "time" : {
+        "start" : 1654679672884,
+        "stop" : 1654679672884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "响应结果",
+      "time" : {
+        "start" : 1654679672884,
+        "stop" : 1654679672885,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fe9824e72f1c280",
+        "name" : "响应结果",
+        "source" : "1fe9824e72f1c280.json",
+        "type" : "application/json",
+        "size" : 261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "当前可用参数池",
+      "time" : {
+        "start" : 1654679672885,
+        "stop" : 1654679672885,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ad70e1ae0337d3",
+        "name" : "当前可用参数池",
+        "source" : "7ad70e1ae0337d3.json",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1654679672886,
+        "stop" : 1654679672887,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87c441751ac42e9a",
+        "name" : "第1个断言",
+        "source" : "87c441751ac42e9a.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GFT8T1F"
+  }, {
+    "name" : "thread",
+    "value" : "13948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['c49', '派单买A数据-派单-期粒度', '', '/advertising/data/deliver_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"special_link_convert_num\",\"categorys\":[{\"id\":\"554a50a07f3e11ec8b9fda4945f85c98\",\"name\":\"daszx按时发放时\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d95f1e5a3a7fe857.json",
+  "parameterValues" : [ "['c49', '派单买A数据-派单-期粒度', '', '/advertising/data/deliver_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":0,\"column_name\":\"special_link_convert_num\",\"categorys\":[{\"id\":\"554a50a07f3e11ec8b9fda4945f85c98\",\"name\":\"daszx按时发放时\",\"sub\":[]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+}

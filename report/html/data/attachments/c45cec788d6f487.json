@@ -1,0 +1,17 @@
+{
+    "tid": 17,
+    "page": 1,
+    "limit": 10,
+    "project_id": 1,
+    "camp_id": 100693,
+    "term_id": 105297,
+    "begin_time": "2022-03-02",
+    "end_time": "2022-03-06",
+    "detail_type": 1,
+    "begin": 104972,
+    "end": 105297,
+    "material_type": 0,
+    "material_name": "富素人三冬暖",
+    "aisle_id": 2,
+    "aisle_id_sub": "主渠道"
+}

@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "x_name": 85,
+                "x_id": 0,
+                "y_value": 228.0,
+                "line_name": "5天声音变现体验营"
+            }
+        ]
+    }
+}

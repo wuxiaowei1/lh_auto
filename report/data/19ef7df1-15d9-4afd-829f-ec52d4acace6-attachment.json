@@ -1,0 +1,18 @@
+{
+    "camp_id": 100693,
+    "material_type": 0,
+    "term_start": "105308,105456,105467,105814",
+    "term_finish": "104972,104983,105112,105297",
+    "tid": 17,
+    "grain_type": 2,
+    "detail_type": 0,
+    "column_name": "low_class_num",
+    "categorys": [
+        {
+            "id": 21,
+            "name": "5天声音变现体验营",
+            "sub": []
+        }
+    ],
+    "project_id": 1
+}

@@ -1,0 +1,18 @@
+{
+    "tid": 17,
+    "grain_type": 1,
+    "begin_time": "2022-03-07",
+    "end_time": "2022-03-13",
+    "detail_type": 0,
+    "column_name": "low_class_num",
+    "categorys": [
+        {
+            "id": "wx987103c34c239c74",
+            "name": "变声记",
+            "sub": []
+        }
+    ],
+    "project_id": 1,
+    "camp_id": 100693,
+    "material_type": 0
+}

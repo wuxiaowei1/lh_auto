@@ -1,0 +1,25 @@
+{
+    "camp_id": 100693,
+    "material_type": 0,
+    "term_start": "105308,105456,105467,105814",
+    "term_finish": "104972,104983,105112,105297",
+    "tid": 17,
+    "grain_type": 2,
+    "detail_type": 2,
+    "column_name": "low_class_num",
+    "categorys": [
+        {
+            "id": 9,
+            "name": "鱼悦",
+            "sub": [
+                {
+                    "id": "wxc4dbeb49c1a8c918",
+                    "name": "声优大本营"
+                }
+            ]
+        }
+    ],
+    "project_id": 1,
+    "aisle_id": 2,
+    "trend_type": "ad_account_id"
+}

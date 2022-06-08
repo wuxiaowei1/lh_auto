@@ -1,0 +1,216 @@
+{
+  "uid" : "f50348b24032f5c4",
+  "name" : "投手数据-广告账号细分-日粒度",
+  "fullName" : "test.test_api#test_main",
+  "historyId" : "4067c0249522c9b7293106b1138e6f29",
+  "time" : {
+    "start" : 1654679690861,
+    "stop" : 1654679691329,
+    "duration" : 468
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1654679690861,
+      "stop" : 1654679690861,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址: https://lh-launch-platform.dev1.weike.fm/advertising/data/pitcher_trend",
+      "time" : {
+        "start" : 1654679690862,
+        "stop" : 1654679690862,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1654679690862,
+        "stop" : 1654679690862,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "388a75f6bd917f14",
+        "name" : "请求头",
+        "source" : "388a75f6bd917f14.json",
+        "type" : "application/json",
+        "size" : 204
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "请求数据",
+      "time" : {
+        "start" : 1654679690863,
+        "stop" : 1654679690863,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db612dd15b874837",
+        "name" : "请求数据",
+        "source" : "db612dd15b874837.json",
+        "type" : "application/json",
+        "size" : 546
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "响应耗时(s): 0.462077",
+      "time" : {
+        "start" : 1654679691326,
+        "stop" : 1654679691326,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "响应结果",
+      "time" : {
+        "start" : 1654679691326,
+        "stop" : 1654679691327,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b07acb59b3d89b",
+        "name" : "响应结果",
+        "source" : "2b07acb59b3d89b.json",
+        "type" : "application/json",
+        "size" : 1324
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "当前可用参数池",
+      "time" : {
+        "start" : 1654679691327,
+        "stop" : 1654679691327,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3421ec8834767e3a",
+        "name" : "当前可用参数池",
+        "source" : "3421ec8834767e3a.json",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1654679691328,
+        "stop" : 1654679691329,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69d0066f7e5304bf",
+        "name" : "第1个断言",
+        "source" : "69d0066f7e5304bf.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GFT8T1F"
+  }, {
+    "name" : "thread",
+    "value" : "13948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['c69', '投手数据-广告账号细分-日粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f50348b24032f5c4.json",
+  "parameterValues" : [ "['c69', '投手数据-广告账号细分-日粒度', '', '/advertising/data/pitcher_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":1,\"begin_time\":\"2022-03-07\",\"end_time\":\"2022-03-13\",\"detail_type\":2,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":46,\"name\":\"吴小伟\",\"sub\":[{\"id\":\"wxc4dbeb49c1a8c918\",\"name\":\"声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"aisle_id\":2,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+}

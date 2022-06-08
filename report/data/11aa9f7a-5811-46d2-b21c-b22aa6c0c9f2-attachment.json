@@ -1,0 +1,20 @@
+{
+    "tid": 17,
+    "grain_type": 2,
+    "begin_time": 105308,
+    "end_time": 105814,
+    "detail_type": 0,
+    "column_name": [
+        "roi",
+        "high_immersion_purchased_day3_rate"
+    ],
+    "categorys": [
+        {
+            "id": "wxc4dbeb49c1a8c918",
+            "name": "声优大本营",
+            "sub": []
+        }
+    ],
+    "camp_id": 100693,
+    "project_id": 1
+}

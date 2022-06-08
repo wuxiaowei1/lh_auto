@@ -1,0 +1,21 @@
+{
+    "tid": 17,
+    "page": 1,
+    "limit": 20,
+    "material_name": "张弛配音师生活",
+    "data_type": 1,
+    "tag_group": 6,
+    "price_name": "1元",
+    "pitcher_id": 43,
+    "agent_id": 9,
+    "tags": [
+        458
+    ],
+    "aisle_id": 2,
+    "aisle_id_sub": "主渠道",
+    "project_id": 1,
+    "camp_id": 100693,
+    "term_id": 105308,
+    "begin_time": "2022-03-07",
+    "end_time": "2022-03-13"
+}

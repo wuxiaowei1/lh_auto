@@ -1,0 +1,23 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "content": [
+            {
+                "camp_id": 100693,
+                "camp_name": "声音变现一转（低价）",
+                "today": "2022-06-08",
+                "new": {
+                    "current": 0,
+                    "prev": 0,
+                    "mom": 0
+                },
+                "outpace": {
+                    "current": 0,
+                    "prev": 0,
+                    "mom": 0
+                }
+            }
+        ]
+    }
+}

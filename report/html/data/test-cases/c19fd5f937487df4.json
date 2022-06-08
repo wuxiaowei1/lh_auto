@@ -1,0 +1,216 @@
+{
+  "uid" : "c19fd5f937487df4",
+  "name" : "落地页数据-皮肤维度-落地页细分-期粒度",
+  "fullName" : "test.test_api#test_main",
+  "historyId" : "71973915931edede84d23948b8076945",
+  "time" : {
+    "start" : 1654679711412,
+    "stop" : 1654679712084,
+    "duration" : 672
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1654679711411,
+      "stop" : 1654679711411,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址: https://lh-launch-platform.dev1.weike.fm/advertising/data/put_page_skin_trend",
+      "time" : {
+        "start" : 1654679711412,
+        "stop" : 1654679711412,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1654679711412,
+        "stop" : 1654679711413,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2fd653064398fb7",
+        "name" : "请求头",
+        "source" : "d2fd653064398fb7.json",
+        "type" : "application/json",
+        "size" : 204
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "请求数据",
+      "time" : {
+        "start" : 1654679711413,
+        "stop" : 1654679711414,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1066ea0de33eb54c",
+        "name" : "请求数据",
+        "source" : "1066ea0de33eb54c.json",
+        "type" : "application/json",
+        "size" : 515
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "响应耗时(s): 0.666322",
+      "time" : {
+        "start" : 1654679712081,
+        "stop" : 1654679712081,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "响应结果",
+      "time" : {
+        "start" : 1654679712081,
+        "stop" : 1654679712082,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b252541003c2910",
+        "name" : "响应结果",
+        "source" : "5b252541003c2910.json",
+        "type" : "application/json",
+        "size" : 261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "当前可用参数池",
+      "time" : {
+        "start" : 1654679712082,
+        "stop" : 1654679712082,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73af7cb20aa67702",
+        "name" : "当前可用参数池",
+        "source" : "73af7cb20aa67702.json",
+        "type" : "application/json",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1654679712083,
+        "stop" : 1654679712084,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "97255f9626ad10fd",
+        "name" : "第1个断言",
+        "source" : "97255f9626ad10fd.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GFT8T1F"
+  }, {
+    "name" : "thread",
+    "value" : "13948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['c85', '落地页数据-皮肤维度-落地页细分-期粒度', '', '/advertising/data/put_page_skin_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":111,\"name\":\"声音微信皮肤2\",\"sub\":[{\"id\":1396,\"name\":\"0秒-声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c19fd5f937487df4.json",
+  "parameterValues" : [ "['c85', '落地页数据-皮肤维度-落地页细分-期粒度', '', '/advertising/data/put_page_skin_trend', 'post', 'json', '', '{\"tid\":17,\"grain_type\":2,\"begin_time\":105308,\"end_time\":105308,\"detail_type\":1,\"column_name\":\"low_class_num\",\"categorys\":[{\"id\":111,\"name\":\"声音微信皮肤2\",\"sub\":[{\"id\":1396,\"name\":\"0秒-声优大本营\"}]}],\"project_id\":1,\"camp_id\":100693,\"material_type\":0,\"trend_type\":\"ad_account_id\"}', '', '', '{\"$.code\":0}']" ]
+}

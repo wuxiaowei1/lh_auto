@@ -1,0 +1,19 @@
+{
+    "tid": 17,
+    "grain_type": 1,
+    "begin_time": "2022-03-02",
+    "end_time": "2022-03-06",
+    "detail_type": 0,
+    "column_name": "low_class_num",
+    "categorys": [
+        {
+            "id": 6,
+            "name": "新榜",
+            "sub": []
+        }
+    ],
+    "project_id": 1,
+    "camp_id": 100693,
+    "material_type": 0,
+    "aisle_id": 2
+}

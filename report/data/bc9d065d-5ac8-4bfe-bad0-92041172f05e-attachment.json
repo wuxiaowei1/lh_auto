@@ -1,0 +1,25 @@
+{
+    "tid": 17,
+    "grain_type": 2,
+    "begin_time": 105308,
+    "end_time": 105814,
+    "detail_type": 1,
+    "column_name": [
+        "roi",
+        "high_immersion_purchased_day3_rate"
+    ],
+    "categorys": [
+        {
+            "id": "10696682",
+            "name": "梨花自运营-晴17-声音1户",
+            "sub": [
+                {
+                    "id": 64,
+                    "name": "情感语录混剪"
+                }
+            ]
+        }
+    ],
+    "camp_id": 100693,
+    "project_id": 1
+}

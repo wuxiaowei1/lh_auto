@@ -1,0 +1,24 @@
+{
+    "tid": 17,
+    "grain_type": 1,
+    "begin_time": "2022-03-07",
+    "end_time": "2022-03-13",
+    "detail_type": 1,
+    "column_name": "low_class_num",
+    "categorys": [
+        {
+            "id": 2,
+            "name": "微信广告",
+            "sub": [
+                {
+                    "id": 7,
+                    "name": "微盟"
+                }
+            ]
+        }
+    ],
+    "project_id": 1,
+    "camp_id": 100693,
+    "material_type": 0,
+    "trend_type": "ad_account_id"
+}
